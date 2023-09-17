@@ -1,0 +1,121 @@
+[
+  {
+    "objectID": "OpenRemarks.html#gem-city-ml",
+    "href": "OpenRemarks.html#gem-city-ml",
+    "title": "Gem City ML",
+    "section": "Gem City ML",
+    "text": "Gem City ML\n\n\nGem City ML’s goal is to have a space where people can present and learn new ML/AI ideas, ask for help on problems they are working on, and meet new people.\n\nWe have short talks about machine learning (ML) and how to get into this field.\n\nThe format is:\n\nSocial: ~ 30 min\nLecture: ~ 1 hour\nSocial: ~ 30 min\n\nTalks have ranged from MLOps, modeling CO2 to predict occupancy, to A/B Testing.\n\nMeetings:\n\nTime: Third Thursday at 6pm\nLocation: the Innovation Hub / Arcade in Downtown Dayton\n\n\n\n\n\nMeetup \n\n\nDiscord"
+  },
+  {
+    "objectID": "OpenRemarks.html#gem-city-tech",
+    "href": "OpenRemarks.html#gem-city-tech",
+    "title": "Gem City ML",
+    "section": "Gem City Tech",
+    "text": "Gem City Tech\n\n\nGemCity TECH’s mission is to grow the Dayton’s industry and the community by providing a centralized destination for technical training, workshops and providing a forum for collaborating.\n\nCurrently, supports several special interest groups from a variety of technical disciplines.\n\nDayton Web Developers\nDayton Dynamic Languages\nDayton .net Developers\nGem City Games Developments\nNew to Tech\nFrameworks\nMachine Learning / Artificial Intelligence (ML/AI)\nCode for Dayton\nGem City Mechatronics\nAutonomous Miami Valley\n\n\n\n\n\nMeetup \n\n\nDiscord"
+  },
+  {
+    "objectID": "OpenRemarks.html#big-thanks-to-our-sponsors",
+    "href": "OpenRemarks.html#big-thanks-to-our-sponsors",
+    "title": "Gem City ML",
+    "section": "Big Thanks to our Sponsors",
+    "text": "Big Thanks to our Sponsors\n \n\n\nGem City Tech\n\n\nThe Hub\n\n\nTechnology First\n\n\n\n\n\n\nHuman IT\n\n\nPizza Factory\n\n\nKable Academy\n\n\n\n\nGemCity TECH: GemCity.Tech\nThe Innovation Hub: thehubdayton.com\nTechnology First: www.technologyfirst.org\nHuman IT: https://humanit.us/\nPizza Factory: https://pizzafactory.biz/\nKable Academy: Kable Academy puts tech careers within reach for those willing to explore a life in IT. They are change agents, who wield the tools of education, accessibility, and connection."
+  },
+  {
+    "objectID": "OpenRemarks.html#code-of-conduct",
+    "href": "OpenRemarks.html#code-of-conduct",
+    "title": "Gem City ML",
+    "section": "Code of Conduct",
+    "text": "Code of Conduct\nWe expect everyone in our space to abide by this Code of Conduct. This includes event attendees, community organizers, sponsors, guests, and board members. Violation of this Code of Conduct could result in being removed from the GemCity TECH community and no longer having access to the associated benefits. If you witness a violation of our Code of Conduct, please notify us. Always feel empowered to say something and please escalate any concerns immediately to someone on the staff or leadership team or email help@gemcity.tech.\nWelcome Everyone\nOur community members are our family. Come hang out with us to learn and collaborate on a wide range of technology topics. We do not tolerate discrimination of any kind, especially on the basis of race, ethnicity, gender, religion, sexual orientation, national origin, disability, gender identity, socioeconomic status, or citizenship status. We are committed to creating a non-hostile meeting and event space for all.\nTreat Others & The Space With Respect\nRespect and allow everyone to express their opinions, concerns, and needs. Listen with the intention to understand. Respect the privacy of everyone in our community.\nPlease pick up after yourself. Treat communal spaces with respect. If you move something, put it back. Leave the space as you found it or better.\nHarassment Is Not Tolerated\nWe do not tolerate harassment of any kind. Unwanted texting, calling, emailing, following, stalking, badgering, intimidating, or threatening will result in being removed from the GemCity TECH community.\nHarassment also includes sexual harassment in any form such as teasing, jokes, innuendos, images, gestures, touching, grabbing, or giving gifts of a sexual or unwanted nature.\nIf someone tries to move on from the conversation, let them go. If someone explicitly tells you to leave them alone, then leave them alone. If you are unsure if your behavior is inappropriate, don’t do it. Always err on the side of making a comfortable environment based on the other person’s standards, not your own.\nProfessional Environment\nGemCity TECH is a community of event attendees, community organizers, sponsors, guests, and board members. This is a professional environment and should be treated as such. These are your peers, so please treat each other like peers. Be courteous, kind, and respectful at all times.\nDiversity Encouraged & Celebrated\nGemCity TECH is committed to building a diverse and inclusive community and believe doing so will lead to better overall collaboration.\nPay It Forward\nBeing part of our community means helping each other out without expectation of anything in return. Help other members of the community by making introductions, sharing your experience, or just listening.\nAbide By The Law\nDo not participate in any illegal activities.\nWe do not allow the use of illegal drugs, illegal hacking, and anything that would put our community in jeopardy.\nSmoking, vaping, or chewing is not allowed in our space.\nDo not take other people’s physical property. Do not take other people’s intellectual property…but, we encourage you to contribute to open source.\nThe GemCity TECH Code of Conduct is a living document managed by our community. If you have any suggestions, please feel free to contact us."
+  },
+  {
+    "objectID": "OpenRemarks.html#other",
+    "href": "OpenRemarks.html#other",
+    "title": "Gem City ML",
+    "section": "Other",
+    "text": "Other\nBathrooms\nBathrooms are located in the building\nNearest exit"
+  },
+  {
+    "objectID": "OpenRemarks.html#now-for-our-first-speaker",
+    "href": "OpenRemarks.html#now-for-our-first-speaker",
+    "title": "Gem City ML",
+    "section": "Now, for our first speaker…",
+    "text": "Now, for our first speaker…\n\n\n\nGem City Tech ML/AI"
+  },
+  {
+    "objectID": "talk.html#outline",
+    "href": "talk.html#outline",
+    "title": "LangChain Memory",
+    "section": "Outline",
+    "text": "Outline\n\nMotivation\nWhat is LangChain\nInstalling Langchain\nUsing Langchain\n\nResume building\nLinkedIn Bio\n\nUsing ChatGPT"
+  },
+  {
+    "objectID": "talk.html#motivation",
+    "href": "talk.html#motivation",
+    "title": "LangChain Memory",
+    "section": "Motivation",
+    "text": "Motivation\nLast month people were interested in LangChain and Code For Dayton’s MontyBot example\nLinks\n\nCode for Dayton\nMontyBot Repo\n\n\nLinkedIn\n\nOn LinkedIn, the following question was posted\n\n“How to I express on my resume, I can do the latest XYZ, even though I do not have experience in that because I have lots of experience.”\n\nPosted response from ChatGPT looked awesome!\n\nAbsolutely, you can convey your adaptability and quick learning skills…"
+  },
+  {
+    "objectID": "talk.html#continued.",
+    "href": "talk.html#continued.",
+    "title": "LangChain Memory",
+    "section": "Continued.",
+    "text": "Continued.\nAbsolutely, you can convey your adaptability and quick learning skills on your resume without sounding arrogant or dismissive. Here’s a suggestion on how to incorporate that sentiment into your resume in a professional manner:   Previous Experience:  Senior [Your Industry] Professional | [Company Name] | [Dates of Employment] Spearheaded the successful adoption of new technologies, demonstrating the ability to rapidly learn and apply unfamiliar concepts within a tight timeframe. Consistently stayed at the forefront of industry trends by quickly acquiring expertise in emerging tools and techniques, contributing to the company’s innovation and growth. Leveraged [specific examples of technologies or tools you’ve learned quickly] to enhance operational efficiency and drive results. Demonstrated a passion for continuous learning, consistently adapting to new challenges and expanding skillset to meet evolving industry demands."
+  },
+  {
+    "objectID": "talk.html#langchain",
+    "href": "talk.html#langchain",
+    "title": "LangChain Memory",
+    "section": "LangChain",
+    "text": "LangChain\nLet’s see what we can do with LangChain and ChatGPT."
+  },
+  {
+    "objectID": "talk.html#what-is-langchain",
+    "href": "talk.html#what-is-langchain",
+    "title": "LangChain Memory",
+    "section": "What is LangChain",
+    "text": "What is LangChain\nLLM models have no memory. Each API call is a standalone interaction. So we wanted it to build a custom, biography (aka LinkedIn) and a custom resume for company xyz we would have to resupply it with all of our information.\n \nSee Medium’s Custom Memory article\n\nLangChain\nLangChain gets around costly prefeeding conversation history by optimize the right memory type for your application.\n \nLarge language models (LLMs) are emerging as a transformative technology, enabling developers to build applications that they previously could not. However, using these LLMs in isolation is often insufficient for creating a truly powerful app — the real power comes when you can combine them with other sources of computation or knowledge.\n\nThis library aims to assist in the development of those types of applications."
+  },
+  {
+    "objectID": "talk.html#setup",
+    "href": "talk.html#setup",
+    "title": "LangChain Memory",
+    "section": "Setup",
+    "text": "Setup\nNOTE: Need python &gt; 3.8.10\npip install langchain\npip install openai\npip install chomadb\n \nCreate environment key\nOPENAI_API_KEY=123#3431`1...."
+  },
+  {
+    "objectID": "talk.html#python-code",
+    "href": "talk.html#python-code",
+    "title": "LangChain Memory",
+    "section": "Python Code",
+    "text": "Python Code\nfrom langchain.llms import OpenAI\nchatgpt = OpenAI()\nfrom langchain.chains import ConversationChain\nconversation = ConversationChain(llm=chatgpt)\npromt = \"How do I show I can learn this skill quickly\"\nconversation.predict(input=promt)\n' The best way to show that you can learn a skill quickly is to practice it frequently. It is important to focus on the basics of the skill and build up your knowledge and expertise gradually. You should also focus on understanding the underlying concepts of the skill so that you can easily apply it in different situations. Additionally, it is helpful to find resources, such as tutorials or online courses, that can help you learn the skill in an efficient and effective way.'"
+  },
+  {
+    "objectID": "talk.html#now-lets-try-it-with-a-resume.",
+    "href": "talk.html#now-lets-try-it-with-a-resume.",
+    "title": "LangChain Memory",
+    "section": "Now, let’s try it with a resume.",
+    "text": "Now, let’s try it with a resume.\nExample based on Langchain Tutorial\nMemory in the Multi Input Chain\n\nDocument\nMemory"
+  },
+  {
+    "objectID": "talk.html#example",
+    "href": "talk.html#example",
+    "title": "LangChain Memory",
+    "section": "Example",
+    "text": "Example\nfrom langchain.embeddings.openai import OpenAIEmbeddings\nfrom langchain.text_splitter import CharacterTextSplitter\nfrom langchain.docstore.document import Document\nfrom langchain.vectorstores import Chroma\n\n\nresume = \"../data/CV.md\"\nwith open(\"resume\") as f:\n    resume_data = f.read()\ntext_splitter = CharacterTextSplitter(chunk_size=1200, chunk_overlap=0)\ntexts = text_splitter.split_text(resume_data)\n\nembeddings = OpenAIEmbeddings()"
+  },
+  {
+    "objectID": "talk.html#results",
+    "href": "talk.html#results",
+    "title": "LangChain Memory",
+    "section": "Results",
+    "text": "Results\nGot a better resume results with ChatGPT vs LangChain.\nHowevery, got a good results for summary.\n\n\n\nMy LinkenIn Bio\nMrs. Evelyn J. Boettcher founded and led DiDacTex, LLC (a small woman owned business). Her experience spans over two decades in the field of electro-optics and remote sensing, with working experience with electronics, modeling and algorithm development. She received an MS in Physics from the University of Maryland and a BS in Physics from the University of Florida. She has been head author in respected peer review journals, presented findings at international and national meetings and received patents for electro-optical devices (# 6,738,536 #; 6,944,372). Lastly, she enjoys supporting STEM activities for youth and building IoT devices.\n\nLangChain Bio\nEvelyn Boettcher is a highly experienced and knowledgeable physicist and founder with a wide range of technical skills. She has a Master of Science in Physics from the University of Maryland and a Bachelor of Science in Physics with Highest Honors from the University of Florida. Her technical skills include data science, machine learning, teaching, programming, sensors, images and videos, systems, and modeling. She has published two journal papers and has demonstrated a passion for continuous learning, consistently adapting to new challenges and expanding her skillset to meet evolving industry demands. She currently leads a Machine Learning Community group and supports a NASIC mission."
+  },
+  {
+    "objectID": "talk.html#conclusion",
+    "href": "talk.html#conclusion",
+    "title": "LangChain Memory",
+    "section": "Conclusion",
+    "text": "Conclusion\nEvelyn Boettcher will not be able to get a job as a promt engineer.\n\n\n\nGem City Tech ML/AI"
+  }
+]

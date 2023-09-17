@@ -1,0 +1,206 @@
+---
+title: "LangChain Memory"
+subtitle: "A resume application"
+date: "20230921"
+author: "Presented by Evelyn J. Boettcher"
+title-slide-attributes:
+    data-background-image: 'img/logos/gem_cityML_slide.png'
+    data-background-size: "100% 100% "
+    data-background-position: "0% "
+    data-background-opacity: "0.95"
+format:
+    revealjs:
+        incremental: false
+fig-cap-location: margin
+---
+
+## Outline
+
+* Motivation
+* What is LangChain
+* Installing Langchain
+* Using Langchain
+    * Resume building
+    * LinkedIn Bio
+* Using ChatGPT
+
+---
+
+## Motivation
+
+### Last month people were interested in LangChain and Code For Dayton's MontyBot example
+
+#### Links
+* [Code for Dayton](https://www.codefordayton.org/posts/)
+* [MontyBot Repo](https://github.com/codefordayton/montybot)
+
+<br>
+
+### LinkedIn
+
+* On LinkedIn, the following question was posted
+  * "How to I express on my resume, I can do the latest XYZ, even though I do not have experience in that because I have lots of experience."
+
+* Posted response from ChatGPT looked awesome!
+   * Absolutely, you can convey your adaptability and quick learning skills...
+   
+---
+
+## Continued. 
+
+Absolutely, you can convey your adaptability and quick learning skills on your resume without sounding arrogant or dismissive. Here's a suggestion on how to incorporate that sentiment into your resume in a professional manner:
+<br>
+<br>
+Previous Experience: <br>
+Senior [Your Industry] Professional | [Company Name] | [Dates of Employment]<br>
+***Spearheaded*** the successful adoption of new technologies, demonstrating the ability to rapidly learn and apply unfamiliar concepts within a tight timeframe.<br>
+Consistently ***stayed at the forefront*** of industry trends by quickly acquiring expertise in emerging tools and techniques, contributing to the company's innovation and growth.<br>
+***Leveraged*** [specific examples of technologies or tools you've learned quickly] to enhance operational efficiency and drive results.<br>
+***Demonstrated*** a passion for continuous learning, consistently adapting to new challenges and expanding skillset to meet evolving industry demands.
+
+---
+
+## LangChain
+
+Let's see what we can do with LangChain and ChatGPT.
+
+---
+
+## What is LangChain
+
+LLM models have no memory.  Each API call is a standalone interaction.  So we wanted it to build a custom, biography (aka LinkedIn) and a custom resume for company xyz we would have to resupply it with all of our information.
+
+<br>
+<br>
+
+See Medium's [Custom Memory article](https://towardsdatascience.com/custom-memory-for-chatgpt-api-artificial-intelligence-python-722d627d4d6d)
+
+<br>
+
+### LangChain
+
+LangChain gets around costly prefeeding conversation history by optimize the right memory type for your application.
+
+<br>
+<br>
+
+**Large language models (LLMs) are emerging as a transformative technology, enabling developers to build applications that they previously could not. However, using these LLMs in isolation is often insufficient for creating a truly powerful app — the real power comes when you can combine them with other sources of computation or knowledge.**
+
+<br>
+
+**This library aims to assist in the development of those types of applications.**
+
+---
+
+## Setup
+
+NOTE: Need python > 3.8.10
+
+
+```python
+pip install langchain
+pip install openai
+pip install chomadb
+```
+
+<br>
+<br>
+
+### Create environment key
+
+```bash
+OPENAI_API_KEY=123#3431`1....
+```
+
+---
+
+## Python Code
+
+```python
+from langchain.llms import OpenAI
+chatgpt = OpenAI()
+from langchain.chains import ConversationChain
+conversation = ConversationChain(llm=chatgpt)
+promt = "How do I show I can learn this skill quickly"
+conversation.predict(input=promt)
+```
+
+```bash
+' The best way to show that you can learn a skill quickly is to practice it frequently. It is important to focus on the basics of the skill and build up your knowledge and expertise gradually. You should also focus on understanding the underlying concepts of the skill so that you can easily apply it in different situations. Additionally, it is helpful to find resources, such as tutorials or online courses, that can help you learn the skill in an efficient and effective way.'
+```
+
+---
+
+## Now, let's try it with a resume.
+
+### Example based on Langchain Tutorial
+
+[Memory in the Multi Input Chain](https://python.langchain.com/docs/modules/memory/adding_memory_chain_multiple_inputs)
+
+* Document
+* Memory
+
+---
+
+## Example
+
+
+```python
+from langchain.embeddings.openai import OpenAIEmbeddings
+from langchain.text_splitter import CharacterTextSplitter
+from langchain.docstore.document import Document
+from langchain.vectorstores import Chroma
+
+
+resume = "../data/CV.md"
+with open("resume") as f:
+    resume_data = f.read()
+text_splitter = CharacterTextSplitter(chunk_size=1200, chunk_overlap=0)
+texts = text_splitter.split_text(resume_data)
+
+embeddings = OpenAIEmbeddings()
+```
+
+---
+
+```python
+embeddings = OpenAIEmbeddings()
+docsearch = Chroma.from_texts(
+    texts, embeddings, metadatas=[{"source": i} for i in range(len(texts))]
+)
+
+query = "What are skills, experiences, education and abilities"
+docs = docsearch.similarity_search(query)
+
+```
+
+---
+
+## Results
+
+Got a better resume results with ChatGPT vs LangChain.
+
+Howevery, got a good results for summary.
+
+<br>
+
+:::{.columns}
+::::{.column width=49%}
+### My LinkenIn Bio
+Mrs. Evelyn J.  Boettcher founded and led DiDacTex, LLC (a small woman owned business). Her experience spans over two decades in the field of electro-optics and remote sensing, with working experience with electronics, modeling and algorithm development.  She received an MS in Physics from the University of Maryland and a BS in Physics from the University of Florida.  She has been head author in respected peer review journals, presented findings at international and national meetings and received patents for electro-optical devices (# 6,738,536 #; 6,944,372).  Lastly, she enjoys supporting STEM activities for youth and building IoT devices.
+
+::::
+::::{.column width=49%}
+
+### LangChain Bio
+Evelyn Boettcher is a highly experienced and knowledgeable physicist and founder with a wide range of technical skills. She has a Master of Science in Physics from the University of Maryland and a Bachelor of Science in Physics with Highest Honors from the University of Florida. Her technical skills include data science, machine learning, teaching, programming, sensors, images and videos, systems, and modeling. She has published two journal papers and has demonstrated a passion for continuous learning, consistently adapting to new challenges and expanding her skillset to meet evolving industry demands. She currently leads a Machine Learning Community group and supports a NASIC mission.
+
+::::
+:::
+
+
+---
+
+## Conclusion
+
+### Evelyn Boettcher will not be able to get a job as a promt engineer.
